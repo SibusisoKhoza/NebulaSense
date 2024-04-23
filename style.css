@@ -157,7 +157,7 @@
 /*background color*/
 
 body  {
-    background-image: url('https://github.com/SibusisoKhoza/NebulaSense/blob/main/images/back.jpg');
+    background-image: url('images/back.jpg');
     background-size: cover;
         -webkit-animation: slidein 10s;
         animation: slidein 10s;
