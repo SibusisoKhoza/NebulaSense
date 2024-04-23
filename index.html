@@ -71,7 +71,7 @@
             console.log(data);
 
             const WeatherIcon = document.querySelector('.weather-icon');
-            WeatherIcon.src = 'images/' + data.weather[0].main + '.png';
+            WeatherIcon.src = 'images/' + data.weather[0].main + '.png'.toLowerCase();
             document.querySelector(".weather").style.display = "block";
         }
     }
