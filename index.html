@@ -42,8 +42,6 @@
             </div>
         </div>
     </div>
-   
-    <h1>test</h1>
 </body>
 
 <script>
@@ -78,6 +76,12 @@
 
     searchButton.addEventListener("click", ()=>{
         checkWeather(searchBox.value);
+    })
+
+    searchBox.addEventListener("keydown", (e)=>{
+        if(e.keyCode == 13){
+            checkWeather(searchBox.value);
+        }
     })
 
     
