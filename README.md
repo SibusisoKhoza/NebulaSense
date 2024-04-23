@@ -1,2 +1,0 @@
-# NebulaSense
- Weather App Application

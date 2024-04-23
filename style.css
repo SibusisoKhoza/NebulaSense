@@ -12,7 +12,7 @@
 .card{
     width: 90%;
     max-width: 500px;
-    background: linear-gradient(135deg, red, yellow);
+    background: linear-gradient(179deg, black, #20778c);
     color: white;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -157,7 +157,7 @@
 /*background color*/
 
 body  {
-    background-image: url('https://img.freepik.com/free-vector/sky-wallpaper-video-conferencing_23-2148627719.jpg?t=st=1713876151~exp=1713879751~hmac=58b04ee657dd4a692f9d2938e2eb008d751ad043c7a99852c20d9f362fedf188&w=900');
+    background-image: url('/images/back.jpg');
     background-size: cover;
         -webkit-animation: slidein 10s;
         animation: slidein 10s;
@@ -203,3 +203,4 @@ to {background-position: -100px 0px;background-size:2750px;}
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
 }
+
