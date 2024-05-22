@@ -18,6 +18,7 @@
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .search{
@@ -208,3 +209,6 @@ to {background-position: -100px 0px;background-size:2750px;}
   text-transform:uppercase;
 }
 
+#cont-home{
+    margin-bottom: 100px;
+}
