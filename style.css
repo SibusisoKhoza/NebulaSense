@@ -18,6 +18,7 @@
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .search{
@@ -76,13 +77,13 @@
     margin-top: 50px;
 }
 
-.col {
+.coll {
     display: flex;
     align-items: center;
     text-align: left;
 }
 
-.col img{
+.coll img{
     width: 40px;
     margin-right: 10px;
 }
@@ -139,7 +140,7 @@
         flex-direction: column;
     }
 
-    .col {
+    .coll {
         margin-bottom: 20px;
     }
 
@@ -208,3 +209,6 @@ to {background-position: -100px 0px;background-size:2750px;}
   text-transform:uppercase;
 }
 
+#cont-home{
+    margin-bottom: 100px;
+}

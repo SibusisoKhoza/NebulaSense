@@ -7,14 +7,10 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    
 
 </head>
-
 <body>
-
-    
-<!-- Navigation Bar -->
+    <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">NebulaSense</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,21 +18,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-            
             <li class="nav-item">
-                <a class="nav-link" href="/home.html">Home</a>
+                <a class="nav-link active" href="#">Weather</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Weather</a>
+            <li class="nav-item">
+                <a class="nav-link" href="NebulaSense/home.html">About</a>
             </li>
+           
         </ul>
     </div>
 </nav>
-    <div id="particles-js">
 
-    <h1 id="title">Nebula Sense</h1>
+
+
+    <div id="cont-home">
+
+        <h2 class="text-center my-5">Search City Below</h2>
 
     <div class="card">
+       
         <div class="search">
             <input type="text" placeholder="City name" spellcheck="false">
             <button><img src="images/search.png" alt="search.png"></button>
@@ -51,14 +51,14 @@
             <h2 class="city"></h2>
             <div class="details">
                
-                <div class="col">
+                <div class="coll">
                     <img src="images/humidity.png" alt="">
                     <div>
                         <p class="humidity"></p>
                         <p>Humidity</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="coll">
                     <img src="images/wind.png" alt="">
                     <div>
                         <p class="wind"></p>
@@ -69,6 +69,12 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
+<footer class="py-4 bg-dark text-white-50 fixed-bottom">
+    <div class="container text-center">
+        <small>&copy; 2024 NebulaSense. All rights reserved.</small>
+    </div>
+</footer>
 </body>
 
 <script>
@@ -111,7 +117,8 @@
 
     
 </script>
-
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
 </div>

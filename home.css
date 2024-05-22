@@ -25,6 +25,8 @@ header a:hover {
     color: #20778c;
 }
 
+
+
 .card img {
     max-height: 200px;
     object-fit: cover;
@@ -62,3 +64,4 @@ from {background-position: top;background-size:3000px; }
 to {background-position: -100px 0px;background-size:2750px;}
 
 }
+
