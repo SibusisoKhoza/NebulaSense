@@ -76,13 +76,13 @@
     margin-top: 50px;
 }
 
-.col {
+.coll {
     display: flex;
     align-items: center;
     text-align: left;
 }
 
-.col img{
+.coll img{
     width: 40px;
     margin-right: 10px;
 }
@@ -139,7 +139,7 @@
         flex-direction: column;
     }
 
-    .col {
+    .coll {
         margin-bottom: 20px;
     }
 

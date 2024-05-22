@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NebulaSense</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
 </head>
 <body>
-    <div id="particles-js">
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">NebulaSense</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Weather</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="NebulaSense/home.html">About</a>
+            </li>
+           
+        </ul>
+    </div>
+</nav>
 
-    <h1 id="title">Nebula Sense</h1>
+
+
+    <div id="particles-js">
 
     <div class="card">
         <div class="search">
@@ -28,14 +48,14 @@
             <h2 class="city"></h2>
             <div class="details">
                
-                <div class="col">
+                <div class="coll">
                     <img src="images/humidity.png" alt="">
                     <div>
                         <p class="humidity"></p>
                         <p>Humidity</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="coll">
                     <img src="images/wind.png" alt="">
                     <div>
                         <p class="wind"></p>
@@ -88,5 +108,6 @@
 
     
 </script>
+
 </html>
 </div>
